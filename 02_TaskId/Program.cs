@@ -24,7 +24,6 @@ namespace _02_TaskId
 			{			
 			Console.WriteLine($"Thread main - CurrentID = {Task.CurrentId}");
 			
-
 			Task task1 = new Task(MyTask);			
 			Task task2 = new Task(MyTask);
 			task1.Start();
