@@ -8,8 +8,7 @@ using System.Threading.Tasks;
 namespace _01_TASK_First
 	{
 	class Program
-		{
-	
+		{	
 			static void MyTask()
 			{
 			Thread.CurrentThread.IsBackground = false;
